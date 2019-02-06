@@ -1,0 +1,26 @@
+#main {
+  background: white;
+  text-align: center;
+}
+
+#survey-form {
+  background: #E1E2E2;
+  margin: 3%;
+}
+
+#selectmultiple, #dropdown, #textarea {
+	width: 30%
+}
+#number, #email, #name {
+	width: 30%;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease; 
+  opacity: 0;
+}
+
+#description {
+	font-size: 20px;
+	font-weight:  bold;
+}

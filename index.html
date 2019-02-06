@@ -1,0 +1,155 @@
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<main id="main">
+  <h1 id="title">CEO Smart Technologies LLC</h1>
+  <div id="survey-container">
+    <form id="survey-form">
+
+      <p id="description">We want to hear from you </p>
+
+      <label id="name-label" for="name">*Name:</label>
+
+      <center><input autofocus="" type="text" name="name" id="name" class="" placeholder="Enter your name" required=""></center>
+
+      <label id="email-label" for="email">*Email:</label>
+
+      <center><input autofocus="" type="email" name="email" id="email" class="" placeholder="Enter your email" required=""></center>
+
+      <label id="number-label" for="age">*Age:</label>
+
+      <center><input autofocus="" type="number" name="number" id="number" class="" placeholder="Enter your age" required="" min="1" max="99"></center><br>
+
+      <!-- Multiple Checkboxes Things that should be improved -->
+      <div class="form-group">
+        <label class="row-md-1 control-label" for="checkboxes">Things that should be improved in the future (Check all that apply):</label>
+        <div class="row-md-1">
+          <div class="checkbox">
+            <label for="checkboxes-0">
+      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="retail">
+      Retail
+    </label>
+          </div>
+          <div class="checkbox">
+            <label for="checkboxes-1">
+      <input type="checkbox" name="checkboxes" id="checkboxes-1" value="online">
+      Online Website
+    </label>
+          </div>
+          <div class="checkbox">
+            <label for="checkboxes-2">
+      <input type="checkbox" name="checkboxes" id="checkboxes-2" value="smart">
+      Smart Technologies
+    </label>
+          </div>
+          <div class="checkbox">
+            <label for="checkboxes-3">
+      <input type="checkbox" name="checkboxes" id="checkboxes-3" value="business">
+      Business Operations
+    </label>
+          </div>
+          <div class="checkbox">
+            <label for="checkboxes-4">
+      <input type="checkbox" name="checkboxes" id="checkboxes-4" value="resource">
+      Human Resource
+    </label>
+          </div>
+          <div class="checkbox">
+            <label for="checkboxes-5">
+      <input type="checkbox" name="checkboxes" id="checkboxes-5" value="maps">
+      Maps
+    </label>
+          </div>
+          <div class="checkbox">
+            <label for="checkboxes-6">
+      <input type="checkbox" name="checkboxes" id="checkboxes-6" value="forum">
+      Forum
+    </label>
+          </div>
+          <div class="checkbox">
+            <label for="checkboxes-7">
+      <input type="checkbox" name="checkboxes" id="checkboxes-7" value="education">
+      Excellence in Education
+    </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Select Multiple What you like Most -->
+     <center> <div class="form-group">
+        <label class="row-md-1 control-label" for="selectmultiple">What do you like most about CEO LLC.? (Choose multiple)</label>
+        <div class="row-md-1">
+          <select id="selectmultiple" name="selectmultiple" class="form-control" multiple="multiple">
+      <option value="price">Pricing</option>
+      <option value="flex">Flexibility</option>
+      <option value="location">Location</option>
+      <option value="delivery">Delivery</option>
+      <option value="social">Social Media Presence</option>
+      <option value="design">Design</option>
+      <option value="convenience">Convenience</option>
+    </select>
+        </div>
+      </div></center>
+
+      <!-- Multiple Select Recommend CEO to a Friend -->
+      <div class="form-group">
+        <label class="row-md-1 control-label" for="radio">How likely is it that you would recommend CEO LLC. to a friend?</label>
+        <div class="row-md-1">
+          <div class="radio">
+            <label for="radio-0">
+      <input type="radio" name="radio" id="radio-0" value="def" checked="checked">
+      Definitely
+    </label>
+          </div>
+          <div class="radio">
+            <label for="radio-1">
+      <input type="radio" name="radio" id="radio-1" value="maybe">
+      Maybe
+    </label>
+          </div>
+          <div class="radio">
+            <label for="radio-2">
+      <input type="radio" name="radio" id="radio-2" value="not-sure">
+      Not sure
+    </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Select Best Describes you -->
+      <center><div class="form-group">
+        <label class="row-md-1 control-label" for="dropdown">Which best describes you?</label>
+        <div class="row-md-1">
+          <select id="dropdown" name="dropdown" class="form-control">
+      <option value="student">Student</option>
+      <option value="part-time">Part Time</option>
+      <option value="full-time">Full Time</option>
+      <option value="prefer-no">Prefer not to answer</option>
+      <option value="other">Other</option>
+    </select>
+        </div>
+      </div></center>
+
+      <!-- Textarea comments and suggestions -->
+      <center><div class="form-group">
+        <label class="row-md-1 control-label" for="textarea">Any comments of suggestions?</label>
+        <div class="row-md-1">
+          <textarea class="form-control" id="textarea" name="textarea" placeholder="Enter your comments here...."></textarea>
+        </div>
+      </div></center>
+
+      <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+
+    </form>
+  </div>
+
+  </div>
+</main>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
